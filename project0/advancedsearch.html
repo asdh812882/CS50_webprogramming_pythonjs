@@ -2,18 +2,22 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="as_q" value="All these words">
-            <input type="text" name="as_epq" value="This exact phrase">
-            <input type="text" name="as_opq" value="Any of these phrases">
-            <input type="text" name="as_eq" value="None of these phrases">
-            <input type="hidden" name="safe" value="active">
-            <input type="hidden" name="hl" value="en">
-            <input type="submit" value="Google Search">
-        </form>
-        <a href="index.html">Return to Search</a>
-        <a href="imagesearch.html">Image Search</a>
+    <body id="bodycontainer">
+        <div id="centeredcontainer">
+            <img src="media/googlelogo.png"></img>
+            <form class="searchform" action="https://www.google.com/search">
+                <input type="text" name="as_q" placeholder="All these words" class="searchbar">
+                <input type="text" name="as_epq" placeholder="This exact phrase" class="searchbar">
+                <input type="text" name="as_opq" placeholder="Any of these phrases" class="searchbar">
+                <input type="text" name="as_eq" placeholder="None of these phrases" class="searchbar">
+                <input type="hidden" name="safe" value="active">
+                <input type="hidden" name="hl" value="en">
+                <input type="submit" value="Google Search" class="button gooseabut" style="text-align:center;">
+            </form>
+            <button type="button" onclick="window.location.href='index.html';" class="button retseabut">Return to Search</a>
+            <button type="button" onclick="window.location.href='imagesearch.html';" class="imaseabut button">Image Search</button>
+        </div>
     </body>
 </html>

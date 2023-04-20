@@ -1,0 +1,53 @@
+#bodycontainer{
+    font-family:Roboto, arial, sans-serif;
+}
+
+#centeredcontainer {
+    text-align:center;
+}
+
+#centeredcontainer img {
+    padding: 50px 0px 2`0px 0px;
+    display: inline-block;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f9f0fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px; 
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor:pointer;
+}
+
+.advseabut {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.imaseabut{
+    background-color: #db0e0e;
+    color: white;
+}
+
+.retseabut {
+    background-color: #f1c500;
+    border: 1px solid #f1c500;
+}
+
+input{
+    display: inline-block;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.searchbar {
+    width: 400px;
+    height:30px;
+    font-size: large;
+}
